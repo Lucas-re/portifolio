@@ -66,9 +66,15 @@ body{
 
 #container{
     /*
-    Define a largura fixa do container
+    Define a largura dinamica do container
     */
-    width:360px;
+    width:100%;
+
+    /*
+    Define a largura marxima que os elementos vão ocupar 
+    a partir da largura dinamica
+    */
+    max-width: 588px;
 
     /*
     Define a altura fixa do container
